@@ -69,6 +69,10 @@ The architecture of the project is thoughtfully divided into two pivotal compone
 
 On the frontend, the Vue.js framework is used to create an intuitive and engaging user interface. Within the "src" directory, the carefully organized "components" folder houses modular components that encapsulate specific functionalities, enhancing maintainability and reusability. Core configuration files, including the router and "main.js," are strategically placed within the "src" directory, facilitating a seamless entry point for the frontend. This well-structured architecture culminates in a cohesive single-page application that seamlessly communicates with the backend through the Axios module. To optimize data retrieval and minimize redundant requests, the app employs local storage to efficiently store fetched information. Beyond the foundational features of user authentication and caching, the app offers advanced functionalities that are efficiently managed through Celery. These include the timely dispatch of email notifications, dynamic report generation, and flexible data export capabilities. The integration of Redis and Vue.js, along with the strategic use of Celery, collectively contributes to the project's ability to deliver a responsive, feature-rich, and highly efficient web application.
 
+## Certificate and Course
+
+I have completed this project as part of the [Modern Application Development II - Project](https://study.iitm.ac.in/ds/course_pages/BSCS2006P.html). I am proud to mention that I have received the "Best Project" certificate for this outstanding work.
+
 ## Video
 
 [Project Overview Video](https://drive.google.com/file/d/1bHR71HRMDGvp54jo_YVCLwqUVTcrUWSz/view?usp=drive_link)
