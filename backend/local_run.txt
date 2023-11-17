@@ -1,0 +1,13 @@
+@echo off
+
+REM Start Celery Beat
+celery -A workers.celery beat --max-interval 1 -l info
+
+REM Start Celery Worker
+celery -A workers.celery worker -l info -P gevent
+
+REM Run Python Script
+python main.py
+
+REM Pause to keep the terminal window open
+pause
